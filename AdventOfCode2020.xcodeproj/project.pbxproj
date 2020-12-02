@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA656942578079D00CE82B7 /* ReportRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA656932578079D00CE82B7 /* ReportRepair.swift */; };
+		3AA6569E25782AD500CE82B7 /* PasswordPhilosophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */; };
 		3AFED18F2576E62700445BFC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFED18E2576E62700445BFC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3AA656932578079D00CE82B7 /* ReportRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRepair.swift; sourceTree = "<group>"; };
+		3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPhilosophy.swift; sourceTree = "<group>"; };
 		3AFED18B2576E62700445BFC /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFED18E2576E62700445BFC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +42,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AA65691257803DE00CE82B7 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				3AA65692257803F100CE82B7 /* Day 1 - Report Repair */,
+				3AA6569C25782A0700CE82B7 /* Day 2 - Password Philosophy */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		3AA65692257803F100CE82B7 /* Day 1 - Report Repair */ = {
+			isa = PBXGroup;
+			children = (
+				3AA656932578079D00CE82B7 /* ReportRepair.swift */,
+			);
+			path = "Day 1 - Report Repair";
+			sourceTree = "<group>";
+		};
+		3AA6569C25782A0700CE82B7 /* Day 2 - Password Philosophy */ = {
+			isa = PBXGroup;
+			children = (
+				3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */,
+			);
+			path = "Day 2 - Password Philosophy";
+			sourceTree = "<group>";
+		};
 		3AFED1822576E62700445BFC = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				3AFED18E2576E62700445BFC /* main.swift */,
+				3AA65691257803DE00CE82B7 /* Challenges */,
 			);
 			path = AdventOfCode2020;
 			sourceTree = "<group>";
@@ -119,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA656942578079D00CE82B7 /* ReportRepair.swift in Sources */,
 				3AFED18F2576E62700445BFC /* main.swift in Sources */,
+				3AA6569E25782AD500CE82B7 /* PasswordPhilosophy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
