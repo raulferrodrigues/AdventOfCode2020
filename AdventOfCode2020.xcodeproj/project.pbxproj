@@ -11,6 +11,7 @@
 		3A7782BF257AED69007E6A3D /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7782BE257AED69007E6A3D /* Reader.swift */; };
 		3A7782C4257B098E007E6A3D /* PassportProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7782C3257B098E007E6A3D /* PassportProcessing.swift */; };
 		3A7782C9257C5933007E6A3D /* BinaryBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7782C8257C5933007E6A3D /* BinaryBoarding.swift */; };
+		3A7782CE257D669C007E6A3D /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7782CD257D669C007E6A3D /* CustomCustoms.swift */; };
 		3AA656942578079D00CE82B7 /* ReportRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA656932578079D00CE82B7 /* ReportRepair.swift */; };
 		3AA6569E25782AD500CE82B7 /* PasswordPhilosophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */; };
 		3AFED18F2576E62700445BFC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFED18E2576E62700445BFC /* main.swift */; };
@@ -33,6 +34,7 @@
 		3A7782BE257AED69007E6A3D /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
 		3A7782C3257B098E007E6A3D /* PassportProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportProcessing.swift; sourceTree = "<group>"; };
 		3A7782C8257C5933007E6A3D /* BinaryBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryBoarding.swift; sourceTree = "<group>"; };
+		3A7782CD257D669C007E6A3D /* CustomCustoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCustoms.swift; sourceTree = "<group>"; };
 		3AA656932578079D00CE82B7 /* ReportRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRepair.swift; sourceTree = "<group>"; };
 		3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPhilosophy.swift; sourceTree = "<group>"; };
 		3AFED18B2576E62700445BFC /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,14 +52,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A7782B225799795007E6A3D /* Day 3 - Toboggan Trajectory */ = {
-			isa = PBXGroup;
-			children = (
-				3A7782B3257997DF007E6A3D /* TobogganTrajectory.swift */,
-			);
-			path = "Day 3 - Toboggan Trajectory";
-			sourceTree = "<group>";
-		};
 		3A7782BD257AED55007E6A3D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,48 +60,17 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		3A7782C2257B095A007E6A3D /* Day 4 - Passport Processing */ = {
-			isa = PBXGroup;
-			children = (
-				3A7782C3257B098E007E6A3D /* PassportProcessing.swift */,
-			);
-			path = "Day 4 - Passport Processing";
-			sourceTree = "<group>";
-		};
-		3A7782C7257C4DE1007E6A3D /* Day 5 - Binary Boarding */ = {
-			isa = PBXGroup;
-			children = (
-				3A7782C8257C5933007E6A3D /* BinaryBoarding.swift */,
-			);
-			path = "Day 5 - Binary Boarding";
-			sourceTree = "<group>";
-		};
 		3AA65691257803DE00CE82B7 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				3AA65692257803F100CE82B7 /* Day 1 - Report Repair */,
-				3AA6569C25782A0700CE82B7 /* Day 2 - Password Philosophy */,
-				3A7782B225799795007E6A3D /* Day 3 - Toboggan Trajectory */,
-				3A7782C2257B095A007E6A3D /* Day 4 - Passport Processing */,
-				3A7782C7257C4DE1007E6A3D /* Day 5 - Binary Boarding */,
+				3AA656932578079D00CE82B7 /* ReportRepair.swift */,
+				3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */,
+				3A7782B3257997DF007E6A3D /* TobogganTrajectory.swift */,
+				3A7782C3257B098E007E6A3D /* PassportProcessing.swift */,
+				3A7782C8257C5933007E6A3D /* BinaryBoarding.swift */,
+				3A7782CD257D669C007E6A3D /* CustomCustoms.swift */,
 			);
 			path = Challenges;
-			sourceTree = "<group>";
-		};
-		3AA65692257803F100CE82B7 /* Day 1 - Report Repair */ = {
-			isa = PBXGroup;
-			children = (
-				3AA656932578079D00CE82B7 /* ReportRepair.swift */,
-			);
-			path = "Day 1 - Report Repair";
-			sourceTree = "<group>";
-		};
-		3AA6569C25782A0700CE82B7 /* Day 2 - Password Philosophy */ = {
-			isa = PBXGroup;
-			children = (
-				3AA6569D25782AD500CE82B7 /* PasswordPhilosophy.swift */,
-			);
-			path = "Day 2 - Password Philosophy";
 			sourceTree = "<group>";
 		};
 		3AFED1822576E62700445BFC = {
@@ -200,6 +163,7 @@
 				3AA6569E25782AD500CE82B7 /* PasswordPhilosophy.swift in Sources */,
 				3A7782B4257997DF007E6A3D /* TobogganTrajectory.swift in Sources */,
 				3A7782C9257C5933007E6A3D /* BinaryBoarding.swift in Sources */,
+				3A7782CE257D669C007E6A3D /* CustomCustoms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

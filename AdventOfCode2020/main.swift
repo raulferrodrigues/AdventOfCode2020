@@ -7,7 +7,5 @@
 
 import Foundation
 
-let day5 = BinaryBoarding()
-
-print(day5.partTwo())
+print(CustomCustoms().partTwo())
 
