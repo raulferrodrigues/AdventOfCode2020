@@ -7,5 +7,7 @@
 
 import Foundation
 
-print(PasswordPhilosophy.partTwo())
+let day5 = BinaryBoarding()
+
+print(day5.partTwo())
 
